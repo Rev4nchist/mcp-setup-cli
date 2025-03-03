@@ -4,7 +4,7 @@
   "description": "Setup tool for MCP Memory Server and AI configuration in Cursor IDE",
   "main": "index.js",
   "bin": {
-    "mcp-setup": "./index.js"
+    "mcp-setup": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,8 +17,16 @@
     "memory",
     "claude"
   ],
-  "author": "Your Name",
+  "author": "Rev4nchist",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rev4nchist/mcp-setup-cli.git"
+  },
+  "homepage": "https://github.com/Rev4nchist/mcp-setup-cli#readme",
+  "bugs": {
+    "url": "https://github.com/Rev4nchist/mcp-setup-cli/issues"
+  },
   "dependencies": {
     "chalk": "^4.1.2",
     "ora": "^5.4.1",
@@ -29,4 +37,4 @@
   "engines": {
     "node": ">=14.0.0"
   }
-} 
+}
